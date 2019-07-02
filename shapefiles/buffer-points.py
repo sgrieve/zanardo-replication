@@ -9,6 +9,8 @@ points = fiona.open('pts_wgs84.shp')
 for i, p in enumerate(points[0]['geometry']['coordinates']):
     point = Point(p)
 
+    # 0.75 is approximately 82km in the USA, which is the approx
+    # square root of the largest basin area (7200 km^2)
     buffered = point.buffer(0.75)
 
 
