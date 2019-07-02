@@ -1,0 +1,802 @@
+{
+    "buffer_0.shp": {
+        "bbox": [
+            40.2889,
+            38.7889,
+            -77.7067,
+            -79.2067
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            17,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_1.shp": {
+        "bbox": [
+            41.2619,
+            39.7619,
+            -109.5908,
+            -111.0908
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            12,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_10.shp": {
+        "bbox": [
+            48.4161,
+            46.9161,
+            -121.1742,
+            -122.6742
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            10,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_11.shp": {
+        "bbox": [
+            44.8639,
+            43.3639,
+            -120.0444,
+            -121.5444
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            10,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_12.shp": {
+        "bbox": [
+            38.9297,
+            37.4297,
+            -80.9617,
+            -82.4617
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            17,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_13.shp": {
+        "bbox": [
+            40.275,
+            38.775,
+            -120.1869,
+            -121.6869
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            10,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_14.shp": {
+        "bbox": [
+            49.1153,
+            47.6153,
+            -119.365,
+            -120.865
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            10,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_15.shp": {
+        "bbox": [
+            38.9875,
+            37.4875,
+            -85.4783,
+            -86.9783
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            16,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_16.shp": {
+        "bbox": [
+            38.5092,
+            37.0092,
+            -91.7017,
+            -93.2017
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            15,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_17.shp": {
+        "bbox": [
+            42.9458,
+            41.4458,
+            -88.2486,
+            -89.7486
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            16,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_18.shp": {
+        "bbox": [
+            41.5319,
+            40.0319,
+            -85.5139,
+            -87.0139
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            16,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_19.shp": {
+        "bbox": [
+            43.2097,
+            41.7097,
+            -102.4208,
+            -103.9208
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            13,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_2.shp": {
+        "bbox": [
+            44.3361,
+            42.8361,
+            -122.8042,
+            -124.3042
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            10,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_20.shp": {
+        "bbox": [
+            39.1297,
+            37.6297,
+            -118.6992,
+            -120.1992
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            10,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_21.shp": {
+        "bbox": [
+            31.3903,
+            29.8903,
+            -92.0639,
+            -93.5639
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            15,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_22.shp": {
+        "bbox": [
+            33.0764,
+            31.5764,
+            -88.1597,
+            -89.6597
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            16,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_23.shp": {
+        "bbox": [
+            43.5006,
+            42.0006,
+            -83.8053,
+            -85.3053
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            16,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_24.shp": {
+        "bbox": [
+            33.8111,
+            32.3111,
+            -107.7867,
+            -109.2867
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            12,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_25.shp": {
+        "bbox": [
+            31.8317,
+            30.3317,
+            -97.2664,
+            -98.7664
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            14,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_26.shp": {
+        "bbox": [
+            37.7536,
+            36.2536,
+            -95.565,
+            -97.065
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            14,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_27.shp": {
+        "bbox": [
+            35.1944,
+            33.6944,
+            -81.4264,
+            -82.9264
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            17,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_28.shp": {
+        "bbox": [
+            44.3242,
+            42.8242,
+            -89.8931,
+            -91.3931
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            15,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_29.shp": {
+        "bbox": [
+            45.8619,
+            44.3619,
+            -110.0436,
+            -111.5436
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            12,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_3.shp": {
+        "bbox": [
+            41.9714,
+            40.4714,
+            -86.2144,
+            -87.7144
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            16,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_30.shp": {
+        "bbox": [
+            46.9006,
+            45.4006,
+            -114.8364,
+            -116.3364
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            11,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_31.shp": {
+        "bbox": [
+            48.3222,
+            46.8222,
+            -115.5028,
+            -117.0028
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            11,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_32.shp": {
+        "bbox": [
+            39.7664,
+            38.2664,
+            -90.2333,
+            -91.7333
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            15,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_33.shp": {
+        "bbox": [
+            43.1972,
+            41.6972,
+            -120.4875,
+            -121.9875
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            10,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_34.shp": {
+        "bbox": [
+            47.5261,
+            46.0261,
+            -122.2844,
+            -123.7844
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            10,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_35.shp": {
+        "bbox": [
+            29.0417,
+            27.5417,
+            -96.5289,
+            -98.0289
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            14,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_36.shp": {
+        "bbox": [
+            35.3742,
+            33.8742,
+            -85.5564,
+            -87.0564
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            16,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_37.shp": {
+        "bbox": [
+            40.8322,
+            39.3322,
+            -75.9703,
+            -77.4703
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            18,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_38.shp": {
+        "bbox": [
+            36.3269,
+            34.8269,
+            -93.2653,
+            -94.7653
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            15,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_39.shp": {
+        "bbox": [
+            41.2647,
+            39.7647,
+            -81.4456,
+            -82.9456
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            17,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_4.shp": {
+        "bbox": [
+            47.2203,
+            45.7203,
+            -121.3475,
+            -122.8475
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            10,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_40.shp": {
+        "bbox": [
+            31.9711,
+            30.4711,
+            -81.1175,
+            -82.6175
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            17,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_41.shp": {
+        "bbox": [
+            47.9014,
+            46.4014,
+            -121.1986,
+            -122.6986
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            10,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_42.shp": {
+        "bbox": [
+            37.1567,
+            35.6567,
+            -118.2033,
+            -119.7033
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            11,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_43.shp": {
+        "bbox": [
+            33.8569,
+            32.3569,
+            -116.1153,
+            -117.6153
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            11,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_44.shp": {
+        "bbox": [
+            43.8125,
+            42.3125,
+            -91.9231,
+            -93.4231
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            15,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_45.shp": {
+        "bbox": [
+            45.4572,
+            43.9572,
+            -69.1892,
+            -70.6892
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            19,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_46.shp": {
+        "bbox": [
+            31.3039,
+            29.8039,
+            -83.6342,
+            -85.1342
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            16,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_47.shp": {
+        "bbox": [
+            41.0828,
+            39.5828,
+            -97.3167,
+            -98.8167
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            14,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_48.shp": {
+        "bbox": [
+            43.9925,
+            42.4925,
+            -108.2597,
+            -109.7597
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            12,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_49.shp": {
+        "bbox": [
+            36.1528,
+            34.6528,
+            -103.6931,
+            -105.1931
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            13,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_5.shp": {
+        "bbox": [
+            42.2717,
+            40.7717,
+            -76.6978,
+            -78.1978
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            17,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_6.shp": {
+        "bbox": [
+            45.9917,
+            44.4917,
+            -120.3439,
+            -121.8439
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            10,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_7.shp": {
+        "bbox": [
+            38.2939,
+            36.7939,
+            -80.2606,
+            -81.7606
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            17,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_8.shp": {
+        "bbox": [
+            47.1917,
+            45.6917,
+            -121.1128,
+            -122.6128
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            10,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    },
+    "buffer_9.shp": {
+        "bbox": [
+            43.0714,
+            41.5714,
+            -74.5669,
+            -76.0669
+        ],
+        "south_max": false,
+        "south_min": false,
+        "utm_zone": [
+            18,
+            "north"
+        ],
+        "west_max": true,
+        "west_min": true
+    }
+}
