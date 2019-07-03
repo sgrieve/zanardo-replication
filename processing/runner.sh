@@ -30,8 +30,3 @@ rm *.vrt
 cd /data/home/faw513/LSDTopoTools2/src/lsdtt-drivers/
 
 ./strahler-hpc-zanardo.out /data/Geog-c2s2/zanardo/$1/ /data/Geog-c2s2/zanardo/$1/ $1
-
-# Remove the raster files
-rm /data/Geog-c2s2/zanardo/$1/$1.bil
-rm /data/Geog-c2s2/zanardo/$1/$1.hdr
-rm /data/Geog-c2s2/zanardo/$1/$1.bil.aux.xml
