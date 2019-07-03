@@ -1,11 +1,27 @@
 import json
-import sys
+import re
 
-# Load input args, the first is the lower number of tiles and the second is
-# the upper number of tiles to include in this array job
-lower = int(sys.argv[1])
-upper = int(sys.argv[2])
+def tryint(s):
+    '''
+    These three sorting functions are from https://nedbatchelder.com/blog/200712/human_sorting.html
+    '''
+    try:
+        return int(s)
+    except ValueError:
+        return s
 
+def alphanum_key(s):
+    """
+    Turn a string into a list of string and number chunks.
+        "z23a" -> ["z", 23, "a"]
+    """
+    return [ tryint(c) for c in re.split('([0-9]+)', s) ]
+
+def sort_nicely(l):
+    """
+    Sort the given list in the way that humans expect.
+    """
+    l.sort(key=alphanum_key)
 
 with open('download_links.json') as srtm:
     links = json.load(srtm)
@@ -25,22 +41,19 @@ for d in data:
     lats.append(spl[2].strip())
     lngs.append(spl[3].strip())
 
-# Count the number of files to download for each sub zone
-counts = []
+# make a list of the shape names in human sorted order
+shape_names = []
 for key, urls in links.items():
-    if len(urls) > 0:
-        counts.append((key, len(urls)))
+    shape_names.append(key)
 
-counts.sort(key=lambda tup: tup[1], reverse=True)
+sort_nicely(shape_names)
 
-# Filter the data by the input args
-to_process = [x for x in counts if x[1] > lower and x[1] <= upper]
 
 # Write the required params for each job into a file in the format:
-# job_id shapefile_name(no extension) utm_zone north/south no-of-tiles
-with open('array_params.txt'.format(lower, upper), 'w') as f:
-    for i, a in enumerate(to_process, start=1):
-        utm = bboxes[a[0]]['utm_zone']
+# job_id shapefile_name(no extension) utm_zone north/south lat long
+with open('array_params.txt', 'w') as f:
+    for i, a in enumerate(shape_names, start=1):
+        utm = bboxes[a]['utm_zone']
 
-        f.write('{} {} {} {} {} {} {}\n'.format(str(i).zfill(4), a[0][:-4], utm[0],
-                                          utm[1], a[1], lats[i-1], lngs[i-1]))
+        f.write('{} {} {} {} {} {}\n'.format(str(i).zfill(4), a[:-4], utm[0],
+                                          utm[1], lats[i-1], lngs[i-1]))
