@@ -19,12 +19,14 @@ module load proj/5.2.0
 
 # Parse parameter file to get variables.
 number=$SGE_TASK_ID
-paramfile=/data/home/faw513/tokunaga-workflow/processing/array_params_0_1.txt
+paramfile=/data/home/faw513/zanardo-replication/processing/array_params.txt
 
 index=`sed -n ${number}p $paramfile | awk '{print $1}'`
 variable1=`sed -n ${number}p $paramfile | awk '{print $2}'`
 variable2=`sed -n ${number}p $paramfile | awk '{print $3}'`
 variable3=`sed -n ${number}p $paramfile | awk '{print $4}'`
+variable4=`sed -n ${number}p $paramfile | awk '{print $5}'`
+variable5=`sed -n ${number}p $paramfile | awk '{print $6}'`
 
 # 8. Run the application.
-sh /data/home/faw513/tokunaga-workflow/processing/runner.sh $variable1 $variable2 $variable3
+sh /data/home/faw513/tokunaga-workflow/processing/runner.sh $variable1 $variable2 $variable3 $variable4 $variable5
