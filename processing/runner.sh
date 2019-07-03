@@ -4,7 +4,7 @@
 # $2 - utm zone
 # $3 - north or south
 # $4 - Latitude of outlet
-# $3 - Longitude of outlet
+# $5 - Longitude of outlet
 
 # Set up paths so we have a folder for each sub zone
 cd /data/Geog-c2s2/zanardo/

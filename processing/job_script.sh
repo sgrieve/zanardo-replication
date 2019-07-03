@@ -27,6 +27,7 @@ variable2=`sed -n ${number}p $paramfile | awk '{print $3}'`
 variable3=`sed -n ${number}p $paramfile | awk '{print $4}'`
 variable4=`sed -n ${number}p $paramfile | awk '{print $5}'`
 variable5=`sed -n ${number}p $paramfile | awk '{print $6}'`
+variable6=`sed -n ${number}p $paramfile | awk '{print $7}'`
 
 # 8. Run the application.
-sh /data/home/faw513/zanardo-replication/processing/runner.sh $variable1 $variable2 $variable3 $variable4 $variable5
+sh /data/home/faw513/zanardo-replication/processing/runner.sh $variable1 $variable2 $variable3 $variable5 $variable6
