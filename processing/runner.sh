@@ -29,10 +29,8 @@ rm *.hgt
 rm *.vrt
 
 # Run the LSD code
-# cd /data/home/faw513/LSDTopoTools2/src/lsdtt-drivers/
+cd /data/home/faw513/LSDTopoTools2/src/lsdtt-drivers/
 
-#./zanardo-1.out /data/Geog-c2s2/zanardo/$1/ /data/Geog-c2s2/zanardo/$1/ $1
+./zanardo-1.out /data/Geog-c2s2/zanardo/$1/ /data/Geog-c2s2/zanardo/$1/ $1
 
-python /data/home/faw513/zanardo-replication/processing/snapper.py $1
-
-#| xargs -n 1 ./zanardo-2.out /data/Geog-c2s2/zanardo/$1/ /data/Geog-c2s2/zanardo/$1/ $1
+python /data/home/faw513/zanardo-replication/processing/snapper.py $1 | xargs -n 1 ./zanardo-2.out /data/Geog-c2s2/zanardo/$1/ /data/Geog-c2s2/zanardo/$1/ $1
