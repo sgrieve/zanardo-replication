@@ -7,8 +7,8 @@
 #$ -l node_type=sm
 #$ -l h_vmem=128G
 #$ -l highmem
-#$ -l h_rt=0:30:0
-#$ -t 1-1
+#$ -l h_rt=1:00:0
+#$ -t 1-50
 #$ -tc 50
 
 # Load the application module
