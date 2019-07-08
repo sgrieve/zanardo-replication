@@ -7,8 +7,8 @@
 #$ -l node_type=sm
 #$ -l h_vmem=128G
 #$ -l highmem
-#$ -l h_rt=12:0:0
-#$ -t 1-50
+#$ -l h_rt=0:30:0
+#$ -t 1-1
 #$ -tc 50
 
 # Load the application module
@@ -16,6 +16,8 @@ module load gdal/2.3.1
 module load gcc/6.3.0
 module load python/3.6.3
 module load proj/5.2.0
+
+source /data/home/faw513/toku-env/bin/activate
 
 # Parse parameter file to get variables.
 number=$SGE_TASK_ID
