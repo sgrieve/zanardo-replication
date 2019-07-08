@@ -18,7 +18,7 @@ channel_pts = []
 NI = []
 
 filename = '/data/Geog-c2s2/zanardo/{}/full_network_{}.csv'.format(sys.argv[1], sys.argv[1])
-print('built filename:', filename)
+
 with open(filename) as csvfile:
 # with open('full_network_buffer_{}.csv'.format(i)) as csvfile:
     reader = csv.reader(csvfile)
